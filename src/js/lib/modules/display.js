@@ -27,6 +27,7 @@ $.prototype.toggle = function() {
         if (!this[i].style) {
             continue;
         }
+
         if (this[i].style.display === 'none') {
             this[i].style.display = '';
         } else {
